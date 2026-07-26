@@ -1,8 +1,12 @@
 aid: data-innovations
 name: Data Innovations
-description: Data Innovations is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Data Innovations LLC is a clinical laboratory informatics company that builds enterprise
+  laboratory management and instrument-connectivity software for hospitals, health systems, and diagnostic
+  labs. Its flagship Instrument Manager middleware connects analyzers, laboratory information systems (LIS),
+  and EHR platforms such as Epic Beaker and Oracle Cerner, while EP Evaluator supports method validation
+  and quality control, and Lab GPS delivers operational analytics. The company helps clinical labs optimize
+  productivity, connectivity, and risk management across regional, community, and federal health systems.
+  Added to the API Evangelist network as a portfolio company of Battery Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/data-innovations/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +14,52 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Healthcare
+- Clinical Laboratory
+- Laboratory Informatics
+- Middleware
+- Instrument Connectivity
+- Interoperability
+- Health IT
+- Diagnostics
+image: https://www.datainnovations.com/wp-content/uploads/2025/08/logo.svg
 apis: []
+common:
+- type: DomainSecurity
+  url: security/data-innovations-domain-security.yml
+- type: Website
+  url: https://www.datainnovations.com/
+- type: About
+  url: https://datainnovations.com/about-us/
+- type: Blog
+  url: https://datainnovations.com/blog/
+- type: Support
+  url: https://datainnovations.com/customer-support/
+- type: PrivacyPolicy
+  url: https://datainnovations.com/privacy-policy/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
